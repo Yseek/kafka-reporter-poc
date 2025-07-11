@@ -1,10 +1,8 @@
+server:
+  port: 8081
+
 spring:
   kafka:
     consumer:
       bootstrap-servers: localhost:29092
       group-id: report-group
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-      properties:
-        spring.json.trusted.packages: "*"
-        spring.json.value.default.type: com.async.report.consumer.dto.ReportDto
