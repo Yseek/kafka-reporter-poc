@@ -1,6 +1,6 @@
 package com.async.report.consumer.service;
 
-import com.async.report.consumer.dto.ReportDto;
+import com.async.report.ReportDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;

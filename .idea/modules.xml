@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kafka-reporter-poc.iml" filepath="$PROJECT_DIR$/.idea/kafka-reporter-poc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/producer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/producer.main.iml" />
     </modules>
   </component>
 </project>

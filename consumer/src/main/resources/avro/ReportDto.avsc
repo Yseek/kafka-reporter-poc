@@ -1,0 +1,10 @@
+{
+  "namespace": "com.async.report",
+  "type": "record",
+  "name": "ReportDto",
+  "fields": [
+    {"name": "reportName", "type": "string"},
+    {"name": "reporter", "type": "string"},
+    {"name": "content", "type": "string"}
+  ]
+}

@@ -1,6 +1,6 @@
 package com.async.report.producer.controller;
 
-import com.async.report.producer.dto.ReportDto;
+import com.async.report.ReportDto;
 import com.async.report.producer.service.KafkaProducerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

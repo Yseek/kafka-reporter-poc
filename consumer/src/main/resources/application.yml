@@ -1,8 +1,14 @@
 server:
-  port: 8081
+  port: 8082
 
 spring:
   kafka:
     consumer:
       bootstrap-servers: localhost:29092
       group-id: report-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
+      properties:
+        specific.avro.reader: true
+    properties:
+      schema.registry.url: http://localhost:8081
